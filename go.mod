@@ -1,6 +1,6 @@
-module github.com/Alvaroalonsobabbel/wordle
+module github.com/alwedo/wordle
 
-go 1.24.1
+go 1.25.5
 
 require (
 	github.com/atotto/clipboard v0.1.4

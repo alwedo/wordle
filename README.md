@@ -1,6 +1,6 @@
 # Terminal Wordle
 
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/Alvaroalonsobabbel/wordle) ![Test](https://github.com/Alvaroalonsobabbel/wordle/actions/workflows/test.yml/badge.svg) ![Latest Release](https://img.shields.io/github/v/release/Alvaroalonsobabbel/wordle?color=blue&label=Latest%20Release)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/alwedo/wordle) ![Test](https://github.com/alwedo/wordle/actions/workflows/test.yml/badge.svg) ![Latest Release](https://img.shields.io/github/v/release/alwedo/wordle?color=blue&label=Latest%20Release)
 
 Play the NYT daily Wordle from the comfort of your terminal!
 
@@ -17,7 +17,7 @@ For Apple computers with ARM chips you can use the provided installer. For any o
 Open the terminal and run:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Alvaroalonsobabbel/wordle/main/bin/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/alwedo/wordle/main/bin/install.sh | bash
 ```
 
 - You'll be required to enter your admin password.
@@ -26,7 +26,7 @@ curl -sSL https://raw.githubusercontent.com/Alvaroalonsobabbel/wordle/main/bin/i
 ### Compiling the binary yourself
 
 1. [Install Go](https://go.dev/doc/install)
-2. Clone the repo `git clone git@github.com:Alvaroalonsobabbel/wordle.git`
+2. Clone the repo `git clone git@github.com:alwedo/wordle.git`
 3. CD into the repo `cd wordle`
 4. Run the program `make run`
 
