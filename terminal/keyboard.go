@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Alvaroalonsobabbel/wordle/wordle"
+	"github.com/alwedo/wordle/wordle"
 )
 
 const flash = "\x1b[30m\x1b[47m %s \x1b[0m"

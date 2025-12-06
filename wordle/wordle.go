@@ -101,7 +101,7 @@ func (s *Status) isAllowed(word string) error {
 		)
 	}
 	if !slices.Contains(s.allowedWords, word) {
-		return fmt.Errorf("Not in word list: %s", word) //nolint: stylecheck
+		return fmt.Errorf("Not in word list: %s", word) //nolint: staticcheck
 	}
 
 	return nil
@@ -118,7 +118,7 @@ func (s *Status) hardModeCheck(word string) error {
 	}
 	for _, v := range s.Hints {
 		if !strings.ContainsRune(word, v) {
-			return fmt.Errorf("Guess must contain %c", v) //nolint: stylecheck
+			return fmt.Errorf("Guess must contain %c", v) //nolint: staticcheck
 		}
 	}
 

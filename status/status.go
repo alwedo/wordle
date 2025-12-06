@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Alvaroalonsobabbel/wordle/wordle"
+	"github.com/alwedo/wordle/wordle"
 )
 
 const (
